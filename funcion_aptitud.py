@@ -106,19 +106,19 @@ def verificar_cumplimiento_de_porciones_de_cada_grupo_alimenticio(individuo):
 
 
 def verificar_cumplimiento_de_calorias(individuo, calorias_necesarias):
-    return -abs(calorias_necesarias - individuo.calorias)
+    #return -abs(calorias_necesarias - individuo.calorias)
     diferencia = abs(calorias_necesarias - individuo.calorias)
 
     if 0 <= diferencia < 100:
-        return -50
+        return -0
     elif 100 <= diferencia < 200:
-        return -200
+        return -50
     elif 200 <= diferencia < 500:
-        return -500
+        return -200
     elif 500 <= diferencia <= 1000:
-        return -1000
+        return -500
     else:
-        return -2000
+        return -1000
 
 
 def verificar_no_repeticion_de_comidas_por_grupo(individuo):
@@ -137,7 +137,7 @@ def verificar_no_repeticion_de_comidas_por_grupo(individuo):
     for grupo in grupos:
         repetidos = abs(len(grupo) - len(set(grupo)))
         if repetidos > 0:
-            score += -15 * repetidos
+            score += -10 * repetidos
 
     return score
 
