@@ -1,4 +1,4 @@
-import utils
+from utils import lista_sin_ceros, cromosoma_binario_a_individuo
 import comidas
 from comidas import (
     PORCION_MINIMA_FRUTAS,
@@ -20,7 +20,7 @@ def funcion_aptitud(cromosoma, calorias_a_consumir):
     valor_fitness = 0
 
     # Transformo el cromosoma binario en una lista de genes entendibles
-    individuo = utils.cromosoma_binario_a_individuo(cromosoma)
+    individuo = cromosoma_binario_a_individuo(cromosoma)
 
     # Verifico que todos los genes existan
     valor_fitness += verificar_existencia_de_genes(individuo)
@@ -84,22 +84,22 @@ def verificar_cumplimiento_de_porciones_de_cada_grupo_alimenticio(individuo):
     score = 0
 
     # Verifico que cada grupo tenga la cantidad adecuada de porciones. Caso contrario, penalizo.
-    if not (PORCION_MINIMA_FRUTAS <= len(list(filter(lambda num: num != 0, individuo.frutas))) <= PORCION_MAXIMA_FRUTAS):
+    if not (PORCION_MINIMA_FRUTAS <= len(lista_sin_ceros(individuo.frutas)) <= PORCION_MAXIMA_FRUTAS):
         score += -50
 
-    if not (PORCION_MINIMA_VEGETALES <= len(list(filter(lambda num: num != 0, individuo.verduras))) <= PORCION_MAXIMA_VEGETALES):
+    if not (PORCION_MINIMA_VEGETALES <= len(lista_sin_ceros(individuo.verduras)) <= PORCION_MAXIMA_VEGETALES):
         score += -50
 
-    if not PORCION_MINIMA_CARNES_ROJAS <= len(list(filter(lambda num: num != 0, individuo.carnes_rojas))) <= PORCION_MAXIMA_CARNES_ROJAS:
+    if not PORCION_MINIMA_CARNES_ROJAS <= len(lista_sin_ceros(individuo.carnes_rojas)) <= PORCION_MAXIMA_CARNES_ROJAS:
         score += -50
 
-    if not (PORCION_MINIMA_CARNES_BLANCAS <= len(list(filter(lambda num: num != 0, individuo.carnes_blancas_y_legumbres))) <= PORCION_MAXIMA_CARNES_BLANCAS):
+    if not (PORCION_MINIMA_CARNES_BLANCAS <= len(lista_sin_ceros(individuo.carnes_blancas_y_legumbres)) <= PORCION_MAXIMA_CARNES_BLANCAS):
         score += -50
 
-    if not (PORCION_MINIMA_HARINAS_Y_CEREALES <= len(list(filter(lambda num: num != 0, individuo.harinas_y_cereales))) <= PORCION_MAXIMA_HARINAS_Y_CEREALES):
+    if not (PORCION_MINIMA_HARINAS_Y_CEREALES <= len(lista_sin_ceros(individuo.harinas_y_cereales)) <= PORCION_MAXIMA_HARINAS_Y_CEREALES):
         score += -50
 
-    if not (PORCION_MINIMA_LACTEOS <= len(list(filter(lambda num: num != 0, individuo.lacteos))) <= PORCION_MAXIMA_LACTEOS):
+    if not (PORCION_MINIMA_LACTEOS <= len(lista_sin_ceros(individuo.lacteos)) <= PORCION_MAXIMA_LACTEOS):
         score += -50
 
     return score
@@ -135,7 +135,8 @@ def verificar_no_repeticion_de_comidas_por_grupo(individuo):
 
     # Verifico que cada grupo tenga la cantidad adecuada de porciones. Caso contrario, penalizo.
     for grupo in grupos:
-        repetidos = abs(len(grupo) - len(set(grupo)))
+        grupo_sin_ceros = lista_sin_ceros(grupo)
+        repetidos = abs(len(grupo_sin_ceros) - len(set(grupo_sin_ceros)))
         if repetidos > 0:
             score += -10 * repetidos
 

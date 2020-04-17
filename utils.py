@@ -25,3 +25,7 @@ def mostrar_mejores_individuos(top_individuos):
         individuos_formateados.append(cromosoma_binario_a_individuo(individuo))
 
     return individuos_formateados
+
+
+def lista_sin_ceros(lista):
+    return list(filter(lambda num: num != 0, lista))
