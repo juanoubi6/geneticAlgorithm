@@ -51,7 +51,7 @@ class Individuo:
             elif gen in comidas.red_meat:
                 self._calorias += comidas.red_meat[gen]
                 continue
-            else:
+            elif gen != 0:
                 self._invalid_gens.append(gen)
 
     @property
