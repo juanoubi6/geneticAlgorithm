@@ -15,7 +15,7 @@ class Individuo:
         self._calorias = 0
         self.fitness = fitness
         self._agrupar_genes_por_grupo()
-        self._obtener_calorias()
+        self._obtener_calorias_y_genes_invalidos()
 
     def _agrupar_genes_por_grupo(self):
         ultimo = 0
@@ -31,7 +31,7 @@ class Individuo:
         ultimo += comidas.PORCION_MAXIMA_LACTEOS
         self._carnes_rojas = self._raw_gens[ultimo:ultimo + comidas.PORCION_MAXIMA_CARNES_ROJAS]
 
-    def _obtener_calorias(self):
+    def _obtener_calorias_y_genes_invalidos(self):
         for gen in self._raw_gens:
             if gen in comidas.bread_and_cereals:
                 self._calorias += comidas.bread_and_cereals[gen]
