@@ -21,7 +21,7 @@ def main(calorias):
     toolbox.register("mutate", tools.mutFlipBit, indpb=0.1)
     toolbox.register("select", tools.selTournament, tournsize=10)
 
-    NGEN = 100
+    NGEN = 50
     population = toolbox.population(n=5000)
     fame = tools.HallOfFame(NGEN)
 
@@ -50,7 +50,6 @@ def main(calorias):
     print("Frutas:" + str(best.frutas))
 
 
-
 if __name__ == "__main__":
-    main(2800)
+    main(2000)
 
