@@ -6,7 +6,7 @@ from funcion_aptitud import funcion_aptitud
 from deap import creator, base, tools, algorithms
 
 
-def main(calorias):
+def algortimo_genetico(calorias):
 
     # Se indica como se va a evaluar los pesos de la funcion (en este caso, a mayor valor mejor es la funcion)
     creator.create("FitnessMax", base.Fitness, weights=(1.0,))
@@ -75,5 +75,5 @@ def main(calorias):
 
 
 if __name__ == "__main__":
-    main(2000)
+    algortimo_genetico(2000)
 
