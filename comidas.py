@@ -1,10 +1,11 @@
-# 7 es la cantidad de bits minima que necesito para representar mis 77 comidas ya que con 7 bits logro 128 numeros
+# 7 es la cantidad de bits minima que necesito para representar mis 77 comidas
+# ya que con 7 bits logro 128 numeros
 BITS_GEN = 7
 
 # 22 es la cantidad maxima de porciones (sumando todas las porciones maximas)
 LONGITUD_CROMOSOMA = 24 * BITS_GEN
 
-food_gen_dict = {
+diccionario_comida_gen = {
     1: 'Manzana',
     2: 'Piña',
     3: 'Pera',
@@ -92,7 +93,7 @@ food_gen_dict = {
 
 PORCION_MINIMA_FRUTAS=2
 PORCION_MAXIMA_FRUTAS=4
-fruts = {
+frutas = {
     1: 52,
     2: 55,
     3: 55,
@@ -118,7 +119,7 @@ fruts = {
 
 PORCION_MINIMA_VEGETALES=3
 PORCION_MAXIMA_VEGETALES=5
-vegetables = {
+vegetales = {
     22: 24,
     23: 47,
     24: 160,
@@ -144,7 +145,7 @@ vegetables = {
 
 PORCION_MINIMA_CARNES_ROJAS=0
 PORCION_MAXIMA_CARNES_ROJAS=1
-red_meat = {
+carnes_rojas = {
     43: 375,
     44: 375,
     45: 94,
@@ -162,7 +163,7 @@ red_meat = {
 
 PORCION_MINIMA_CARNES_BLANCAS=2
 PORCION_MAXIMA_CARNES_BLANCAS=3
-white_meat_and_legumes = {
+canres_blancas_y_legumbres = {
     56: 111,
     57: 50,
     58: 137,
@@ -174,7 +175,7 @@ white_meat_and_legumes = {
 
 PORCION_MINIMA_LACTEOS=2
 PORCION_MAXIMA_LACTEOS=3
-dairy_products = {
+lacteos = {
     63: 403,
     64: 382,
     65: 136,
@@ -184,7 +185,7 @@ dairy_products = {
 
 PORCION_MINIMA_HARINAS_Y_CEREALES=4
 PORCION_MAXIMA_HARINAS_Y_CEREALES=8
-bread_and_cereals = {
+harines_y_cereales = {
     68: 354,
     69: 350,
     70: 367,

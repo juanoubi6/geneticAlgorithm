@@ -19,13 +19,13 @@ from comidas import (
 def funcion_aptitud(cromosoma, calorias_a_consumir):
     valor_fitness = 0
 
-    # Transformo el cromosoma binario en una lista de genes entendibles
+    # Transformo el cromosoma binario en una lista de genes entendibles (lista de decimales)
     individuo = cromosoma_binario_a_individuo(cromosoma)
 
     # Verifico que todos los genes existan
     valor_fitness += verificar_existencia_de_genes(individuo)
 
-    # Verifico que los grupos tengan los genes correctos
+    # Verifico que los grupos alimenticios tengan los genes correctos
     valor_fitness += verificar_genes_correctos_por_grupo(individuo)
 
     # Verifico que se cumplan las porciones de cada grupo alimenticio
@@ -40,50 +40,74 @@ def funcion_aptitud(cromosoma, calorias_a_consumir):
     return valor_fitness,
 
 
-# Verifica que existan todos los genes en nuestro diccionario de genes. Si no se cumple, se retorna un valor
-# negativo de forma de afectar negativamente a la funcion fitness.
 def verificar_existencia_de_genes(individuo):
+    """Verifica que existan todos los genes en nuestro diccionario de genes.
+
+    Si no se cumple, se retorna un valor negativo de
+    forma de afectar negativamente a la funcion fitness.
+
+    Parameters
+    ----------
+    individuo : Individuo
+        individuo a evaluar.
+    """
     if len(individuo.genes_invalidos) > 0:
         return -100 * len(individuo.genes_invalidos)
 
     return 0
 
+
 def verificar_genes_correctos_por_grupo(individuo):
+    """Verifica que los genes de cada grupo correspondan a ese grupo.
+
+    Se penaliza por cada gen incorrecto en cada grupo.
+
+    Parameters
+    ----------
+    individuo : Individuo
+        individuo a evaluar.
+    """
     score = 0
 
     for gen in individuo.harinas_y_cereales:
-        if gen != 0 and gen not in comidas.bread_and_cereals:
+        if gen != 0 and gen not in comidas.harines_y_cereales:
             score += -15
 
     for gen in individuo.frutas:
-        if gen != 0 and gen not in comidas.fruts:
+        if gen != 0 and gen not in comidas.frutas:
             score += -15
 
     for gen in individuo.verduras:
-        if gen != 0 and gen not in comidas.vegetables:
+        if gen != 0 and gen not in comidas.vegetales:
             score += -15
 
     for gen in individuo.carnes_blancas_y_legumbres:
-        if gen != 0 and gen not in comidas.white_meat_and_legumes:
+        if gen != 0 and gen not in comidas.canres_blancas_y_legumbres:
             score += -15
 
     for gen in individuo.carnes_rojas:
-        if gen != 0 and gen not in comidas.red_meat:
+        if gen != 0 and gen not in comidas.carnes_rojas:
             score += -15
 
     for gen in individuo.lacteos:
-        if gen != 0 and gen not in comidas.dairy_products:
+        if gen != 0 and gen not in comidas.lacteos:
             score += -15
 
     return score
 
 
-# Verifica que existan todos los genes en nuestro diccionario de genes. Si no se cumple, se retorna un valor
-# negativo de forma de afectar negativamente a la funcion fitness.
 def verificar_cumplimiento_de_porciones_de_cada_grupo_alimenticio(individuo):
+    """Verifica que existan todos los genes en nuestro diccionario de genes.
+
+    Se penaliza por cada grupo que no se cumplan las porciones adecuadas.
+
+    Parameters
+    ----------
+    individuo : Individuo
+        individuo a evaluar.
+    """
     score = 0
 
-    # Verifico que cada grupo tenga la cantidad adecuada de porciones. Caso contrario, penalizo.
     if not (PORCION_MINIMA_FRUTAS <= len(lista_sin_ceros(individuo.frutas)) <= PORCION_MAXIMA_FRUTAS):
         score += -50
 
@@ -106,7 +130,18 @@ def verificar_cumplimiento_de_porciones_de_cada_grupo_alimenticio(individuo):
 
 
 def verificar_cumplimiento_de_calorias(individuo, calorias_necesarias):
-    #return -abs(calorias_necesarias - individuo.calorias)
+    """Verifica que se cumpla la cantidad de calorias pedidas en la dieta.
+
+    Se penaliza segun la diferencia entra las calorias actuales de la dieta
+    y las deseadas.
+
+    Parameters
+    ----------
+    individuo : Individuo
+        individuo a evaluar.
+    calorias_necesarias : int
+        calorias que necesita tener la dieta.
+    """
     diferencia = abs(calorias_necesarias - individuo.calorias)
 
     if 0 <= diferencia < 100:
@@ -122,6 +157,16 @@ def verificar_cumplimiento_de_calorias(individuo, calorias_necesarias):
 
 
 def verificar_no_repeticion_de_comidas_por_grupo(individuo):
+    """Verifica que no se repitan comidas dentro de cada grupo alimenticio.
+
+    Se penaliza por cada alimento repetido por grupo. Recordar que los ceros
+    no se contabilizan como repetidos ya que el cero indica "no porcion".
+
+    Parameters
+    ----------
+    individuo : Individuo
+        individuo a evaluar.
+    """
     score = 0
 
     grupos = [
@@ -133,7 +178,6 @@ def verificar_no_repeticion_de_comidas_por_grupo(individuo):
         individuo.frutas
     ]
 
-    # Verifico que cada grupo tenga la cantidad adecuada de porciones. Caso contrario, penalizo.
     for grupo in grupos:
         grupo_sin_ceros = lista_sin_ceros(grupo)
         repetidos = abs(len(grupo_sin_ceros) - len(set(grupo_sin_ceros)))

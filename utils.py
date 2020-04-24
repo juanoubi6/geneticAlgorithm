@@ -1,7 +1,21 @@
 import comidas
 from individuo import Individuo
 
+
 def cromosoma_binario_a_individuo(cromosoma):
+    """Se transforma el cromosoma (lista de binarios) en
+    un objeto del tipo Individuo.
+
+    Parameters
+    ----------
+    cromosoma : list of int
+        lista de numeros binarios que forman el cromosoma.
+
+    Returns
+    -------
+    Individuo
+        True if successful, False otherwise.
+    """
     lista_enteros = []
     numero_de_gen = 0
     gen_binario = ''
@@ -19,6 +33,19 @@ def cromosoma_binario_a_individuo(cromosoma):
 
 
 def mostrar_mejores_individuos(top_individuos):
+    """Se obtiene una lista de cromosomas y se la transforma
+    en una lista de individuos
+
+    Parameters
+    ----------
+    lista : list of list
+        lista de cromosomas.
+
+    Returns
+    -------
+    list of Individuo
+        lista de cromosomas formateados como Individuos.
+    """
     individuos_formateados = []
 
     for individuo in top_individuos:
@@ -28,4 +55,16 @@ def mostrar_mejores_individuos(top_individuos):
 
 
 def lista_sin_ceros(lista):
+    """Se obtiene la lista de entrada sin ceros
+
+    Parameters
+    ----------
+    lista : list of int
+        lista de numeros.
+
+    Returns
+    -------
+    list of int
+        lista sin ceros.
+    """
     return list(filter(lambda num: num != 0, lista))

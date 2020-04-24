@@ -4,6 +4,15 @@ import comidas
 class Individuo:
 
     def __init__(self, lista_genes, fitness=None):
+        """Constructor del Individuo.
+
+        Parameters
+        ----------
+        lista_genes : list of list
+            lista de genes del cromosoma. Cada gen ya fue convertido de binario a decimal.
+        fitness : int
+            indica el valor fitness del individuo.
+        """
         self._raw_gens = lista_genes
         self._invalid_gens = []
         self._frutas = []
@@ -18,6 +27,16 @@ class Individuo:
         self._obtener_calorias_y_genes_invalidos()
 
     def _agrupar_genes_por_grupo(self):
+        """Se agrupan los genes por grupo alimenticio siguiendo la estructura
+        previamente definida para los cromosomas.
+
+        Harinas y cereales: 1 a 8
+        Frutas: 9 a 12
+        Verduras: 13 a 17
+        Carnes blancas y legumbre: 18 a 20
+        Lacteos: 21 a 23
+        Carnes rojas: 24
+        """
         ultimo = 0
         self._harinas_y_cereales = self._raw_gens[ultimo:ultimo + comidas.PORCION_MAXIMA_HARINAS_Y_CEREALES]
         ultimo += comidas.PORCION_MAXIMA_HARINAS_Y_CEREALES
@@ -32,24 +51,29 @@ class Individuo:
         self._carnes_rojas = self._raw_gens[ultimo:ultimo + comidas.PORCION_MAXIMA_CARNES_ROJAS]
 
     def _obtener_calorias_y_genes_invalidos(self):
+        """Se recorren todos los genes (alimentos), contando las calorias
+        de cada uno de los alimentos.
+
+        Adicionalmente, se cuentan la cantidad de genes invalidos generados.
+        """
         for gen in self._raw_gens:
-            if gen in comidas.bread_and_cereals:
-                self._calorias += comidas.bread_and_cereals[gen]
+            if gen in comidas.harines_y_cereales:
+                self._calorias += comidas.harines_y_cereales[gen]
                 continue
-            elif gen in comidas.fruts:
-                self._calorias += comidas.fruts[gen]
+            elif gen in comidas.frutas:
+                self._calorias += comidas.frutas[gen]
                 continue
-            elif gen in comidas.vegetables:
-                self._calorias += comidas.vegetables[gen]
+            elif gen in comidas.vegetales:
+                self._calorias += comidas.vegetales[gen]
                 continue
-            elif gen in comidas.white_meat_and_legumes:
-                self._calorias += comidas.white_meat_and_legumes[gen]
+            elif gen in comidas.canres_blancas_y_legumbres:
+                self._calorias += comidas.canres_blancas_y_legumbres[gen]
                 continue
-            elif gen in comidas.dairy_products:
-                self._calorias += comidas.dairy_products[gen]
+            elif gen in comidas.lacteos:
+                self._calorias += comidas.lacteos[gen]
                 continue
-            elif gen in comidas.red_meat:
-                self._calorias += comidas.red_meat[gen]
+            elif gen in comidas.carnes_rojas:
+                self._calorias += comidas.carnes_rojas[gen]
                 continue
             elif gen != 0:
                 self._invalid_gens.append(gen)
