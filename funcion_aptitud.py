@@ -145,7 +145,7 @@ def verificar_cumplimiento_de_calorias(individuo, calorias_necesarias):
     diferencia = abs(calorias_necesarias - individuo.calorias)
 
     if 0 <= diferencia < 100:
-        return -0
+        return -diferencia/2
     elif 100 <= diferencia < 200:
         return -50
     elif 200 <= diferencia < 500:
