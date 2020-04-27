@@ -21,10 +21,13 @@ def algortimo_genetico(calorias):
     toolbox.register("individual", tools.initRepeat, creator.Individual, toolbox.attr_bool, n=comidas.LONGITUD_CROMOSOMA)
     toolbox.register("population", tools.initRepeat, list, toolbox.individual)
 
-    # Se indica cual sera la funcion aptitud a evaluar para cada individuo
+    # Se indica cual sera la funcion aptitud a evaluar para cada individuo. En este caso la funcion de aptitud siempre
+    # recibe un parametro que indica la cantidad de calorias que debe tener la dieta.
     toolbox.register("evaluate", funcion_aptitud, calorias_a_consumir=calorias)
 
     # Se indica cuales seran las estrategias de seleccion (select), cruzamiento (mate) y mutacion (mutate)
+    probabilidad_cruzamiento = 1
+    probabilidad_mutacion = 0.2
     toolbox.register("select", tools.selTournament, tournsize=10)
     toolbox.register("mate", tools.cxTwoPoint)
     toolbox.register("mutate", tools.mutFlipBit, indpb=0.1)
@@ -56,8 +59,8 @@ def algortimo_genetico(calorias):
     poblacion_final, logbook = algorithms.eaSimple(
         population,
         toolbox,
-        cxpb=1,
-        mutpb=0.2,
+        cxpb=probabilidad_cruzamiento,
+        mutpb=probabilidad_mutacion,
         ngen=NGEN,
         stats=stats,
         halloffame=mejores_n_individuos_de_entre_todas_las_generaciones
