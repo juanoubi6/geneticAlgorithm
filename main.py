@@ -1,5 +1,5 @@
 import random
-import utils
+import logs
 import numpy
 import comidas
 from funcion_aptitud import funcion_aptitud
@@ -30,18 +30,19 @@ def algortimo_genetico(calorias):
     toolbox.register("mutate", tools.mutFlipBit, indpb=0.1)
 
     # Se indica la cantidad de generaciones
-    NGEN = 50
+    NGEN = 10
 
     # Se indica el numero de individuos que tendra la poblacion inicial, que sera constante durante toda la corrida.
     population = toolbox.population(n=5000)
 
     # El HallOfFame se utiliza para almacenar el individuo mas fit de cada generacion
-    fame = tools.HallOfFame(NGEN)
+    mejores_individuos_de_cada_generacion = tools.HallOfFame(NGEN)
 
     # Se crean estadisticas para analizar cada ciclo. En este caso, las estadisticas registradas son
     #   -max = devuelve el valor de la funcion fitness del mejor individuo del ciclo
     stats = tools.Statistics(key=lambda ind: ind.fitness.values)
     stats.register("max", numpy.max)
+    stats.register("avg", numpy.average)
 
     # Es el metodo que realiza la simulacion en si. Los parametros mas importantes son:
     #   -population --> Poblacion inicial
@@ -51,29 +52,19 @@ def algortimo_genetico(calorias):
     #   -ngen       --> Numero de generaciones
     #   -stats      --> Estadisticas que cada ciclo debe registrar
     #   -halloffame --> Objeto que almacena el mejor individuo de cada ciclo
-    algorithms.eaSimple(
+    poblacion_final, logbook = algorithms.eaSimple(
         population,
         toolbox,
         cxpb=1,
         mutpb=0.2,
         ngen=NGEN,
         stats=stats,
-        halloffame=fame
+        halloffame=mejores_individuos_de_cada_generacion
     )
 
-    #TODO: dejar esto mas lindo para tener unos logs no tan cabeza
-    top = utils.mostrar_mejores_individuos(fame.items)
-    best = max(top, key=lambda x: x.fitness)
-    print(best.fitness)
-    print("Calorias " + str(best.calorias))
-    print("Lacteos:" + str(best.lacteos))
-    print("Harinas:" + str(best.harinas_y_cereales))
-    print("Verduras:" + str(best.verduras))
-    print("Carnes blancas:" + str(best.carnes_blancas_y_legumbres))
-    print("Carnes rojas:" + str(best.carnes_rojas))
-    print("Frutas:" + str(best.frutas))
+    logs.crear_logs(mejores_individuos_de_cada_generacion, poblacion_final,logbook)
 
 
 if __name__ == "__main__":
-    algortimo_genetico(2000)
+    algortimo_genetico(2649)
 

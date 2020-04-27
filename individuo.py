@@ -109,3 +109,8 @@ class Individuo:
     @property
     def lacteos(self):
         return self._lacteos
+
+    @property
+    def genes(self):
+        return self._raw_gens
+

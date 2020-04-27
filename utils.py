@@ -32,7 +32,7 @@ def cromosoma_binario_a_individuo(cromosoma):
     return Individuo(lista_enteros, cromosoma.fitness)
 
 
-def mostrar_mejores_individuos(top_individuos):
+def lista_cromosomas_a_lista_individuos(top_individuos):
     """Se obtiene una lista de cromosomas y se la transforma
     en una lista de individuos
 
