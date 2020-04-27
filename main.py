@@ -30,13 +30,13 @@ def algortimo_genetico(calorias):
     toolbox.register("mutate", tools.mutFlipBit, indpb=0.1)
 
     # Se indica la cantidad de generaciones
-    NGEN = 10
+    NGEN = 50
 
     # Se indica el numero de individuos que tendra la poblacion inicial, que sera constante durante toda la corrida.
     population = toolbox.population(n=5000)
 
-    # El HallOfFame se utiliza para almacenar el individuo mas fit de cada generacion
-    mejores_individuos_de_cada_generacion = tools.HallOfFame(NGEN)
+    # El HallOfFame se utiliza para almacenar los N mejores individuos de entre todas las generaciones
+    mejores_n_individuos_de_entre_todas_las_generaciones = tools.HallOfFame(NGEN)
 
     # Se crean estadisticas para analizar cada ciclo. En este caso, las estadisticas registradas son
     #   -max = devuelve el valor de la funcion fitness del mejor individuo del ciclo
@@ -59,10 +59,10 @@ def algortimo_genetico(calorias):
         mutpb=0.2,
         ngen=NGEN,
         stats=stats,
-        halloffame=mejores_individuos_de_cada_generacion
+        halloffame=mejores_n_individuos_de_entre_todas_las_generaciones
     )
 
-    logs.crear_logs(mejores_individuos_de_cada_generacion, poblacion_final,logbook)
+    logs.crear_logs(mejores_n_individuos_de_entre_todas_las_generaciones, poblacion_final,logbook)
 
 
 if __name__ == "__main__":

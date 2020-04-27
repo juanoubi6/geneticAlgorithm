@@ -2,8 +2,8 @@ import utils
 from matplotlib import pyplot as plt
 
 
-def crear_logs(mejores_individuos_de_cada_generacion, poblacion_final, logbook):
-    top_individuos = utils.lista_cromosomas_a_lista_individuos(mejores_individuos_de_cada_generacion.items)
+def crear_logs(mejores_n_individuos_de_entre_todas_las_generaciones, poblacion_final, logbook):
+    top_individuos_corrida = utils.lista_cromosomas_a_lista_individuos(mejores_n_individuos_de_entre_todas_las_generaciones.items)
     poblacion_final = utils.lista_cromosomas_a_lista_individuos(poblacion_final)
 
     print('----------- Mejor individuo de la poblacion final -----------')
@@ -12,7 +12,7 @@ def crear_logs(mejores_individuos_de_cada_generacion, poblacion_final, logbook):
     print('\n')
 
     print('----------- Mejor individuo de toda la corrida -----------')
-    mejor_individuo_de_la_corrida = max(top_individuos, key=lambda x: x.fitness)
+    mejor_individuo_de_la_corrida = max(top_individuos_corrida, key=lambda x: x.fitness)
     log_individuo(mejor_individuo_de_la_corrida)
     print('\n')
 
