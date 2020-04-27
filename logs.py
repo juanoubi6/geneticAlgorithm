@@ -25,8 +25,11 @@ def crear_logs(mejores_n_individuos_de_entre_todas_las_generaciones, poblacion_f
     eje_x_generacion = []
     generacion = 0
     for log in logbook:
-        eje_y_fitness.append(log['max'])
-        eje_x_generacion.append(log['gen'])
+        x = log['gen']
+        y = log['max']
+        eje_y_fitness.append(y)
+        eje_x_generacion.append(x)
+        plt.scatter(x, y, s=10)
         generacion += 1
 
     plt.plot(eje_x_generacion, eje_y_fitness)
@@ -42,8 +45,11 @@ def crear_logs(mejores_n_individuos_de_entre_todas_las_generaciones, poblacion_f
     eje_x_generacion = []
     generacion = 0
     for log in logbook:
-        eje_y_fitness.append(log['avg'])
-        eje_x_generacion.append(log['gen'])
+        x = log['gen']
+        y = log['avg']
+        eje_y_fitness.append(y)
+        eje_x_generacion.append(x)
+        plt.scatter(x, y, s=10)
         generacion += 1
 
     plt.plot(eje_x_generacion, eje_y_fitness)
