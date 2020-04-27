@@ -40,6 +40,7 @@ def algortimo_genetico(calorias):
 
     # Se crean estadisticas para analizar cada ciclo. En este caso, las estadisticas registradas son
     #   -max = devuelve el valor de la funcion fitness del mejor individuo del ciclo
+    #   -avg = devuelve el promedio de la funcion fitness de todos los individuos del ciclo
     stats = tools.Statistics(key=lambda ind: ind.fitness.values)
     stats.register("max", numpy.max)
     stats.register("avg", numpy.average)
