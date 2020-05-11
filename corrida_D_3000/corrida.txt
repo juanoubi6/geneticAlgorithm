@@ -1,0 +1,76 @@
+gen	nevals	max 	avg    
+0  	5000  	-435	-1690.7
+1  	5000  	-369	-1160.27
+2  	5000  	-300	-952.871
+3  	5000  	-259	-794.219
+4  	5000  	-237	-674.622
+5  	5000  	-209	-584.964
+6  	5000  	-179	-528.126
+7  	5000  	-163	-491.382
+8  	5000  	-144	-466.715
+9  	5000  	-127	-451.187
+10 	5000  	-106	-422.083
+11 	5000  	-110	-403.034
+12 	5000  	-87 	-375.465
+13 	5000  	-65 	-347.941
+14 	5000  	-62 	-330.15 
+15 	5000  	-37 	-307.95 
+16 	5000  	-37 	-284.777
+17 	5000  	-16 	-269.731
+18 	5000  	-11 	-264.434
+19 	5000  	-8  	-240.346
+20 	5000  	-3  	-219.955
+21 	5000  	0   	-199.571
+22 	5000  	0   	-173.334
+23 	5000  	0   	-160.495
+24 	5000  	0   	-155.411
+25 	5000  	0   	-156.059
+26 	5000  	0   	-147.448
+27 	5000  	0   	-143.538
+28 	5000  	0   	-136.158
+29 	5000  	0   	-143.418
+30 	5000  	0   	-137.668
+31 	5000  	0   	-139.889
+32 	5000  	0   	-135.443
+33 	5000  	0   	-134.529
+34 	5000  	0   	-139.198
+35 	5000  	0   	-140.546
+36 	5000  	0   	-130.164
+37 	5000  	0   	-132.942
+38 	5000  	0   	-132.467
+39 	5000  	0   	-135.538
+40 	5000  	0   	-130.907
+41 	5000  	0   	-126.524
+42 	5000  	0   	-133.405
+43 	5000  	0   	-134.754
+44 	5000  	0   	-137.671
+45 	5000  	0   	-132.343
+46 	5000  	0   	-131.473
+47 	5000  	0   	-127.243
+48 	5000  	0   	-138.863
+49 	5000  	0   	-134.565
+50 	5000  	0   	-133.761
+----------- Mejor individuo de la poblacion final -----------
+Cromosoma:	[80, 79, 82, 0, 72, 71, 0, 78, 10, 11, 16, 3, 26, 35, 28, 22, 32, 61, 59, 0, 65, 64, 66, 51]
+Fitness:	(0.0,)
+Calorias:	3000
+Lacteos:	Leche de coco, Queso emmental, Leche
+Harinas:	Fideos de soja, Canelones, Tallarines, No porción, Pan de centeno, Copos de maíz, No porción, Cereales con chocolate
+Verduras:	Brócoli, Acelga, Lechuga, Berenjena, Calabaza
+Carnes blancas:	Poroto (Judias), Atún, No porción
+Carnes rojas:	Carne picada de vacuno
+Frutas:		Higo, Pomelo, Mandarina, Pera
+
+
+----------- Mejor individuo de toda la corrida -----------
+Cromosoma:	[80, 79, 82, 0, 72, 71, 0, 76, 10, 11, 6, 1, 26, 29, 25, 0, 22, 56, 59, 0, 65, 64, 66, 55]
+Fitness:	(0.0,)
+Calorias:	3000
+Lacteos:	Leche de coco, Queso emmental, Leche
+Harinas:	Fideos de soja, Canelones, Tallarines, No porción, Pan de centeno, Copos de maíz, No porción, Pasta de sémola
+Verduras:	Brócoli, Pepino, Coliflor, No porción, Berenjena
+Carnes blancas:	Pechuga de pollo, Atún, No porción
+Carnes rojas:	Carne magra de cerdo
+Frutas:		Higo, Pomelo, Naranja, Manzana
+
+

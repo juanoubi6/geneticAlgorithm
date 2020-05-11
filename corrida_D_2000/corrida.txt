@@ -1,0 +1,76 @@
+gen	nevals	max 	avg     
+0  	5000  	-597	-1519.23
+1  	5000  	-483	-1165.15
+2  	5000  	-318	-955.334
+3  	5000  	-275	-798.936
+4  	5000  	-240	-654.501
+5  	5000  	-216	-559.61 
+6  	5000  	-193	-490.021
+7  	5000  	-188	-458.913
+8  	5000  	-167	-427.118
+9  	5000  	-148	-413.859
+10 	5000  	-123	-391.961
+11 	5000  	-122	-371.82 
+12 	5000  	-96 	-353.316
+13 	5000  	-76 	-339.407
+14 	5000  	-70 	-323.042
+15 	5000  	-57 	-306.057
+16 	5000  	-42 	-286.691
+17 	5000  	-42 	-276.111
+18 	5000  	-31 	-263.381
+19 	5000  	-19 	-249.787
+20 	5000  	-18 	-234.21 
+21 	5000  	-15 	-227.818
+22 	5000  	-15 	-221.676
+23 	5000  	-15 	-212.326
+24 	5000  	-15 	-203.456
+25 	5000  	-4  	-193.204
+26 	5000  	-4  	-194.119
+27 	5000  	-1  	-182.084
+28 	5000  	-1  	-178.54 
+29 	5000  	0   	-171.367
+30 	5000  	0   	-166.891
+31 	5000  	0   	-158.935
+32 	5000  	0   	-154.242
+33 	5000  	0   	-154.121
+34 	5000  	0   	-144.805
+35 	5000  	0   	-154.789
+36 	5000  	0   	-145.748
+37 	5000  	0   	-146.133
+38 	5000  	0   	-137.231
+39 	5000  	0   	-133.636
+40 	5000  	0   	-137.447
+41 	5000  	0   	-142.342
+42 	5000  	0   	-136.111
+43 	5000  	0   	-129.114
+44 	5000  	0   	-130.316
+45 	5000  	0   	-129.325
+46 	5000  	0   	-135.605
+47 	5000  	0   	-135.757
+48 	5000  	0   	-139.611
+49 	5000  	0   	-131.889
+50 	5000  	0   	-138.431
+----------- Mejor individuo de la poblacion final -----------
+Cromosoma:	[81, 0, 70, 0, 71, 0, 79, 0, 1, 18, 6, 4, 37, 26, 35, 41, 22, 61, 56, 57, 0, 67, 65, 55]
+Fitness:	(0.0,)
+Calorias:	2000
+Lacteos:	No porción, Yogur natural, Leche de coco
+Harinas:	Mostachol, No porción, Avena, No porción, Copos de maíz, No porción, Canelones, No porción
+Verduras:	Remolacha, Brócoli, Acelga, Espinaca, Berenjena
+Carnes blancas:	Poroto (Judias), Pechuga de pollo, Trucha
+Carnes rojas:	Carne magra de cerdo
+Frutas:		Manzana, Maracuyá, Naranja, Plátano
+
+
+----------- Mejor individuo de toda la corrida -----------
+Cromosoma:	[81, 0, 70, 0, 71, 0, 79, 0, 15, 17, 6, 12, 32, 23, 25, 36, 38, 0, 56, 58, 66, 65, 67, 45]
+Fitness:	(0.0,)
+Calorias:	2000
+Lacteos:	Leche, Leche de coco, Yogur natural
+Harinas:	Mostachol, No porción, Avena, No porción, Copos de maíz, No porción, Canelones, No porción
+Verduras:	Calabaza, Alcachofa, Coliflor, Pimiento, Col de Bruselas
+Carnes blancas:	No porción, Pechuga de pollo, Salmón
+Carnes rojas:	Ternera
+Frutas:		Cerezas, Mango, Naranja, Melón
+
+
