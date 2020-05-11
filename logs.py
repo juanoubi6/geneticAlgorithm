@@ -1,6 +1,14 @@
+import sys
+import codecs
+import locale
 import utils
+import comidas
+from comidas import (
+    diccionario_comida_gen
+)
 from matplotlib import pyplot as plt
 
+sys.stdout = codecs.getwriter(locale.getpreferredencoding())(sys.stdout)
 
 def crear_logs(mejores_n_individuos_de_entre_todas_las_generaciones, poblacion_final, logbook):
     top_individuos_corrida = utils.lista_cromosomas_a_lista_individuos(mejores_n_individuos_de_entre_todas_las_generaciones.items)
@@ -57,12 +65,18 @@ def crear_logs(mejores_n_individuos_de_entre_todas_las_generaciones, poblacion_f
 
 
 def log_individuo(individuo):
-    print('Cromosoma = ' + str(individuo.genes))
-    print('Fitness = ' + str(individuo.fitness))
-    print("Calorias = " + str(individuo.calorias))
-    print("Lacteos:" + str(individuo.lacteos))
-    print("Harinas:" + str(individuo.harinas_y_cereales))
-    print("Verduras:" + str(individuo.verduras))
-    print("Carnes blancas:" + str(individuo.carnes_blancas_y_legumbres))
-    print("Carnes rojas:" + str(individuo.carnes_rojas))
-    print("Frutas:" + str(individuo.frutas))
+    print("Cromosoma:\t" + str(individuo.genes))
+    print("Fitness:\t" + str(individuo.fitness))
+    print("Calorias:\t" + str(individuo.calorias))
+    print("Lacteos:\t" + u", ".join((map(nombre_comida, individuo.lacteos))))
+    print("Harinas:\t" + u", ".join((map(nombre_comida, individuo.harinas_y_cereales))))
+    print("Verduras:\t" + u", ".join((map(nombre_comida, individuo.verduras))))
+    print("Carnes blancas:\t" + u", ".join((map(nombre_comida, individuo.carnes_blancas_y_legumbres))))
+    print("Carnes rojas:\t" + u", ".join((map(nombre_comida, individuo.carnes_rojas))))
+    print("Frutas:\t\t" + u", ".join((map(nombre_comida, individuo.frutas))))
+
+def nombre_comida(id_comida):
+    if diccionario_comida_gen.has_key(id_comida):
+        return diccionario_comida_gen[id_comida]
+    else:
+        return "N/A"

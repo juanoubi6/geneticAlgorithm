@@ -1,0 +1,76 @@
+gen	nevals	max 	avg     
+0  	5000  	-500	-1567.83
+1  	4998  	-330	-587.364
+2  	4999  	-256	-424.533
+3  	4998  	-245	-358.931
+4  	4996  	-237	-345.936
+5  	4994  	-234	-336.782
+6  	4994  	-234	-336.008
+7  	4994  	-234	-338.558
+8  	4993  	-234	-330.45 
+9  	4992  	-232	-338.537
+10 	4992  	-226	-330.148
+11 	4992  	-218	-326.437
+12 	4990  	-198	-338.139
+13 	4990  	-198	-313.945
+14 	4990  	-198	-310.984
+15 	4990  	-197	-303.497
+16 	4990  	-186	-300.767
+17 	4990  	-186	-298.303
+18 	4990  	-186	-299.831
+19 	4990  	-186	-296.831
+20 	4990  	-173	-293.625
+21 	4988  	-173	-287.533
+22 	4988  	-173	-284.418
+23 	4988  	-173	-287.092
+24 	4985  	-173	-294.187
+25 	4984  	-173	-286.12 
+26 	4982  	-173	-293.133
+27 	4980  	-173	-280.819
+28 	4980  	-173	-285.788
+29 	4978  	-173	-282.36 
+30 	4978  	-158	-282.878
+31 	4976  	-158	-276.08 
+32 	4976  	-158	-273.422
+33 	4976  	-143	-271.357
+34 	4976  	-143	-255.107
+35 	4977  	-143	-253.73 
+36 	4976  	-143	-255.829
+37 	4974  	-137	-254.582
+38 	4975  	-137	-251.583
+39 	4974  	-137	-257.534
+40 	4974  	-137	-254.535
+41 	4974  	-137	-254.771
+42 	4974  	-137	-255.139
+43 	4972  	-137	-263.866
+44 	4971  	-137	-257.364
+45 	4970  	-137	-251.79 
+46 	4970  	-137	-256.785
+47 	4970  	-137	-264.835
+48 	4970  	-137	-255.903
+49 	4968  	-137	-263.117
+50 	4966  	-137	-252.341
+----------- Mejor individuo de la poblacion final -----------
+Cromosoma:	[38, 75, 37, 23, 80, 73, 51, 0, 19, 17, 38, 21, 33, 79, 37, 42, 38, 59, 60, 63, 7, 30, 67, 45]
+Fitness:	(-137.0,)
+Calorias:	2646
+Lacteos:	Moras, Zanahoria, Yogur natural
+Harinas:	Col de Bruselas, Pasta al huevo, Remolacha, Alcachofa, Fideos de soja, Pan de trigo blanco, Carne picada de vacuno, No porción
+Verduras:	Puerro, Canelones, Remolacha, Cebolla, Col de Bruselas
+Carnes blancas:	Atún, Huevo, Queso cheddar
+Carnes rojas:	Ternera
+Frutas:		Ciruela, Mango, Col de Bruselas, Uvas
+
+
+----------- Mejor individuo de toda la corrida -----------
+Cromosoma:	[38, 75, 37, 23, 80, 73, 51, 0, 19, 17, 38, 21, 33, 79, 37, 42, 38, 59, 60, 63, 7, 30, 67, 45]
+Fitness:	(-137.0,)
+Calorias:	2646
+Lacteos:	Moras, Zanahoria, Yogur natural
+Harinas:	Col de Bruselas, Pasta al huevo, Remolacha, Alcachofa, Fideos de soja, Pan de trigo blanco, Carne picada de vacuno, No porción
+Verduras:	Puerro, Canelones, Remolacha, Cebolla, Col de Bruselas
+Carnes blancas:	Atún, Huevo, Queso cheddar
+Carnes rojas:	Ternera
+Frutas:		Ciruela, Mango, Col de Bruselas, Uvas
+
+

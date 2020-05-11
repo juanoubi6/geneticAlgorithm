@@ -1,0 +1,76 @@
+gen	nevals	max 	avg    
+0  	5000  	-511	-1571.9
+1  	5000  	-355	-999.73
+2  	5000  	-257	-742.521
+3  	5000  	-199	-578.273
+4  	5000  	-177	-475.434
+5  	5000  	-156	-425.337
+6  	5000  	-138	-390.651
+7  	5000  	-116	-362.053
+8  	5000  	-82 	-340.571
+9  	5000  	-77 	-311.444
+10 	5000  	-61 	-285.949
+11 	5000  	-47 	-240.203
+12 	5000  	-33 	-230.69 
+13 	5000  	-26 	-211.72 
+14 	5000  	-25 	-181.661
+15 	5000  	-25 	-177.48 
+16 	5000  	-25 	-147.554
+17 	5000  	-25 	-147.519
+18 	5000  	-25 	-149.793
+19 	5000  	-25 	-154.225
+20 	5000  	-25 	-140.467
+21 	5000  	-25 	-149.852
+22 	5000  	-25 	-145.803
+23 	5000  	-25 	-146.699
+24 	5000  	-25 	-152.261
+25 	5000  	-25 	-146.796
+26 	5000  	-25 	-150.778
+27 	5000  	-25 	-144.136
+28 	5000  	-25 	-146.141
+29 	5000  	-25 	-143.51 
+30 	5000  	-25 	-142.853
+31 	5000  	-25 	-149.943
+32 	5000  	-25 	-150.784
+33 	5000  	-25 	-145.692
+34 	5000  	-25 	-140.76 
+35 	5000  	-25 	-149.023
+36 	5000  	-25 	-142.304
+37 	5000  	-25 	-142.689
+38 	5000  	-25 	-148.042
+39 	5000  	-25 	-151.508
+40 	5000  	-25 	-142.746
+41 	5000  	-25 	-143.171
+42 	5000  	-25 	-147.864
+43 	5000  	-25 	-150.479
+44 	5000  	-25 	-143.718
+45 	5000  	-25 	-142.614
+46 	5000  	-25 	-146.45 
+47 	5000  	-25 	-142.993
+48 	5000  	-25 	-153.644
+49 	5000  	-25 	-151.232
+50 	5000  	-25 	-146.697
+----------- Mejor individuo de la poblacion final -----------
+Cromosoma:	[68, 69, 37, 74, 0, 74, 75, 79, 14, 4, 0, 1, 26, 30, 40, 36, 41, 58, 61, 56, 65, 67, 0, 50]
+Fitness:	(-25.0,)
+Calorias:	2649
+Lacteos:	Leche de coco, Yogur natural, No porción
+Harinas:	Arroz blanco, Arroz integral, Remolacha, Pan de trigo integral, No porción, Pan de trigo integral, Pasta al huevo, Canelones
+Verduras:	Brócoli, Zanahoria, Espárrago, Pimiento, Espinaca
+Carnes blancas:	Salmón, Poroto (Judias), Pechuga de pollo
+Carnes rojas:	Filete de vacuno
+Frutas:		Kiwi, Plátano, No porción, Manzana
+
+
+----------- Mejor individuo de toda la corrida -----------
+Cromosoma:	[68, 69, 37, 74, 0, 74, 75, 79, 14, 4, 0, 1, 26, 30, 41, 28, 25, 58, 61, 56, 65, 67, 0, 50]
+Fitness:	(-25.0,)
+Calorias:	2649
+Lacteos:	Leche de coco, Yogur natural, No porción
+Harinas:	Arroz blanco, Arroz integral, Remolacha, Pan de trigo integral, No porción, Pan de trigo integral, Pasta al huevo, Canelones
+Verduras:	Brócoli, Zanahoria, Espinaca, Lechuga, Coliflor
+Carnes blancas:	Salmón, Poroto (Judias), Pechuga de pollo
+Carnes rojas:	Filete de vacuno
+Frutas:		Kiwi, Plátano, No porción, Manzana
+
+

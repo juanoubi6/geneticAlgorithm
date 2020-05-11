@@ -1,0 +1,76 @@
+gen	nevals	max 	avg     
+0  	5000  	-498	-1576.39
+1  	5000  	-265	-1294.83
+2  	5000  	-221	-1132.87
+3  	5000  	-248	-1026.78
+4  	5000  	-199	-938.771
+5  	5000  	-230	-883.79 
+6  	5000  	-216	-838.989
+7  	5000  	-238	-811.045
+8  	5000  	-180	-785.93 
+9  	5000  	-225	-761.431
+10 	5000  	-225	-755.21 
+11 	5000  	-217	-739.531
+12 	5000  	-191	-724.362
+13 	5000  	-213	-717.697
+14 	5000  	-199	-701.634
+15 	5000  	-186	-686.902
+16 	5000  	-181	-683.629
+17 	5000  	-174	-670.412
+18 	5000  	-151	-651.56 
+19 	5000  	-180	-641.19 
+20 	5000  	-168	-622.94 
+21 	5000  	-151	-608.231
+22 	5000  	-148	-595.239
+23 	5000  	-142	-582.437
+24 	5000  	-155	-565.374
+25 	5000  	-133	-552.123
+26 	5000  	-154	-529.122
+27 	5000  	-129	-517.506
+28 	5000  	-138	-510.062
+29 	5000  	-122	-506.168
+30 	5000  	-120	-491.592
+31 	5000  	-109	-483.75 
+32 	5000  	-108	-468.544
+33 	5000  	-110	-461.875
+34 	5000  	-102	-442.835
+35 	5000  	-98 	-421.29 
+36 	5000  	-77 	-414.948
+37 	5000  	-77 	-405.065
+38 	5000  	-72 	-392.668
+39 	5000  	-76 	-382.121
+40 	5000  	-69 	-370.843
+41 	5000  	-62 	-363.296
+42 	5000  	-54 	-351.806
+43 	5000  	-48 	-337.755
+44 	5000  	-35 	-322.406
+45 	5000  	-43 	-317.358
+46 	5000  	-41 	-307.323
+47 	5000  	-38 	-295.693
+48 	5000  	-32 	-276.633
+49 	5000  	-32 	-264.199
+50 	5000  	-32 	-259.146
+----------- Mejor individuo de la poblacion final -----------
+Cromosoma:	[0, 76, 78, 0, 75, 70, 0, 72, 11, 7, 4, 0, 34, 25, 33, 26, 35, 56, 58, 62, 0, 5, 14, 55]
+Fitness:	(-32.0,)
+Calorias:	2653
+Lacteos:	No porción, Arándano, Kiwi
+Harinas:	No porción, Pasta de sémola, Cereales con chocolate, No porción, Pasta al huevo, Avena, No porción, Pan de centeno
+Verduras:	Maíz, Coliflor, Puerro, Brócoli, Acelga
+Carnes blancas:	Pechuga de pollo, Salmón, Arvejas (Guisantes)
+Carnes rojas:	Carne magra de cerdo
+Frutas:		Pomelo, Moras, Plátano, No porción
+
+
+----------- Mejor individuo de toda la corrida -----------
+Cromosoma:	[0, 77, 79, 0, 78, 70, 0, 72, 0, 9, 11, 16, 40, 30, 33, 25, 38, 58, 56, 60, 0, 21, 10, 54]
+Fitness:	(-32.0,)
+Calorias:	2646
+Lacteos:	No porción, Uvas, Higo
+Harinas:	No porción, Polenta, Canelones, No porción, Cereales con chocolate, Avena, No porción, Pan de centeno
+Verduras:	Espárrago, Zanahoria, Puerro, Coliflor, Col de Bruselas
+Carnes blancas:	Salmón, Pechuga de pollo, Huevo
+Carnes rojas:	Carne grasa de cerdo
+Frutas:		No porción, Fresa, Pomelo, Mandarina
+
+

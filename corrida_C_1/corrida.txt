@@ -1,0 +1,76 @@
+gen	nevals	max 	avg     
+0  	5000  	-552	-1567.27
+1  	5000  	-373	-1165.15
+2  	5000  	-289	-976.727
+3  	5000  	-273	-834.328
+4  	5000  	-249	-733.754
+5  	5000  	-228	-657.287
+6  	5000  	-221	-615.822
+7  	5000  	-184	-579.174
+8  	5000  	-185	-569.627
+9  	5000  	-166	-542.999
+10 	5000  	-156	-529.711
+11 	5000  	-137	-510.941
+12 	5000  	-132	-492.8  
+13 	5000  	-95 	-478.415
+14 	5000  	-88 	-450.222
+15 	5000  	-84 	-443.942
+16 	5000  	-65 	-424.01 
+17 	5000  	-65 	-409.899
+18 	5000  	-58 	-387.396
+19 	5000  	-46 	-367.08 
+20 	5000  	-35 	-352.209
+21 	5000  	-34 	-340.064
+22 	5000  	-31 	-336.469
+23 	5000  	-28 	-334.817
+24 	5000  	-17 	-323.367
+25 	5000  	-12 	-307.407
+26 	5000  	-15 	-314.142
+27 	5000  	-1  	-305.851
+28 	5000  	-1  	-297.915
+29 	5000  	-1  	-283.209
+30 	5000  	-1  	-276.815
+31 	5000  	0   	-277.215
+32 	5000  	0   	-275.296
+33 	5000  	0   	-269.034
+34 	5000  	0   	-270.482
+35 	5000  	0   	-269.354
+36 	5000  	0   	-272.213
+37 	5000  	0   	-267.435
+38 	5000  	0   	-264.118
+39 	5000  	0   	-258.998
+40 	5000  	0   	-254.925
+41 	5000  	0   	-258.357
+42 	5000  	0   	-261.352
+43 	5000  	0   	-252.518
+44 	5000  	0   	-258.885
+45 	5000  	0   	-255.128
+46 	5000  	0   	-253.522
+47 	5000  	0   	-250.953
+48 	5000  	0   	-257.256
+49 	5000  	0   	-252.769
+50 	5000  	0   	-255.282
+----------- Mejor individuo de la poblacion final -----------
+Cromosoma:	[0, 69, 78, 0, 0, 71, 76, 0, 3, 13, 1, 2, 30, 32, 34, 33, 39, 61, 57, 56, 67, 66, 63, 50]
+Fitness:	(0.0,)
+Calorias:	2649
+Lacteos:	Yogur natural, Leche, Queso cheddar
+Harinas:	No porción, Arroz integral, Cereales con chocolate, No porción, No porción, Copos de maíz, Pasta de sémola, No porción
+Verduras:	Zanahoria, Calabaza, Maíz, Puerro, Rúcula
+Carnes blancas:	Poroto (Judias), Trucha, Pechuga de pollo
+Carnes rojas:	Filete de vacuno
+Frutas:		Pera, Frambuesas, Manzana, Piña
+
+
+----------- Mejor individuo de toda la corrida -----------
+Cromosoma:	[0, 69, 78, 0, 0, 71, 76, 0, 4, 15, 0, 8, 26, 27, 34, 38, 39, 61, 57, 56, 67, 66, 63, 50]
+Fitness:	(0.0,)
+Calorias:	2649
+Lacteos:	Yogur natural, Leche, Queso cheddar
+Harinas:	No porción, Arroz integral, Cereales con chocolate, No porción, No porción, Copos de maíz, Pasta de sémola, No porción
+Verduras:	Brócoli, Champiñones, Maíz, Col de Bruselas, Rúcula
+Carnes blancas:	Poroto (Judias), Trucha, Pechuga de pollo
+Carnes rojas:	Filete de vacuno
+Frutas:		Plátano, Cerezas, No porción, Arándano rojo
+
+

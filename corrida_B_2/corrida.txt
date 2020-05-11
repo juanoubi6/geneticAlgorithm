@@ -1,0 +1,76 @@
+gen	nevals	max 	avg     
+0  	5000  	-480	-1562.48
+1  	5000  	-435	-1169.92
+2  	5000  	-265	-994.465
+3  	5000  	-262	-852.867
+4  	5000  	-222	-752.072
+5  	5000  	-220	-659.489
+6  	5000  	-199	-606.749
+7  	5000  	-181	-571.592
+8  	5000  	-151	-550.312
+9  	5000  	-150	-535.266
+10 	5000  	-139	-518.748
+11 	5000  	-123	-503.982
+12 	5000  	-108	-488.51 
+13 	5000  	-90 	-473.643
+14 	5000  	-62 	-455.972
+15 	5000  	-57 	-437.234
+16 	5000  	-58 	-423.142
+17 	5000  	-29 	-412.534
+18 	5000  	-21 	-377.498
+19 	5000  	-9  	-359.171
+20 	5000  	-8  	-348.989
+21 	5000  	-2  	-332.19 
+22 	5000  	-2  	-313.922
+23 	5000  	0   	-310.589
+24 	5000  	0   	-288.633
+25 	5000  	0   	-297.671
+26 	5000  	0   	-273.401
+27 	5000  	0   	-279.697
+28 	5000  	0   	-275.321
+29 	5000  	0   	-268.285
+30 	5000  	0   	-265.818
+31 	5000  	0   	-264.991
+32 	5000  	0   	-240.544
+33 	5000  	0   	-244.353
+34 	5000  	0   	-233.087
+35 	5000  	0   	-235.871
+36 	5000  	0   	-242.289
+37 	5000  	0   	-245.361
+38 	5000  	0   	-241.543
+39 	5000  	0   	-239.729
+40 	5000  	0   	-236.025
+41 	5000  	0   	-234.838
+42 	5000  	0   	-224.667
+43 	5000  	0   	-228.556
+44 	5000  	0   	-241.437
+45 	5000  	0   	-227.258
+46 	5000  	0   	-241.626
+47 	5000  	0   	-224.137
+48 	5000  	0   	-239.347
+49 	5000  	0   	-237.471
+50 	5000  	0   	-234.994
+----------- Mejor individuo de la poblacion final -----------
+Cromosoma:	[0, 76, 81, 70, 0, 68, 0, 69, 20, 0, 6, 1, 27, 37, 26, 24, 38, 62, 57, 56, 65, 67, 0, 52]
+Fitness:	(0.0,)
+Calorias:	2649
+Lacteos:	Leche de coco, Yogur natural, No porción
+Harinas:	No porción, Pasta de sémola, Mostachol, Avena, No porción, Arroz blanco, No porción, Arroz integral
+Verduras:	Champiñones, Remolacha, Brócoli, Aguacate, Col de Bruselas
+Carnes blancas:	Arvejas (Guisantes), Trucha, Pechuga de pollo
+Carnes rojas:	Filete de nalga de vacuno
+Frutas:		Sandía, No porción, Naranja, Manzana
+
+
+----------- Mejor individuo de toda la corrida -----------
+Cromosoma:	[0, 83, 72, 0, 0, 68, 0, 77, 20, 0, 5, 4, 30, 0, 26, 24, 35, 62, 57, 56, 65, 64, 0, 52]
+Fitness:	(0.0,)
+Calorias:	2649
+Lacteos:	Leche de coco, Queso emmental, No porción
+Harinas:	No porción, Spaguetti, Pan de centeno, No porción, No porción, Arroz blanco, No porción, Polenta
+Verduras:	Zanahoria, No porción, Brócoli, Aguacate, Acelga
+Carnes blancas:	Arvejas (Guisantes), Trucha, Pechuga de pollo
+Carnes rojas:	Filete de nalga de vacuno
+Frutas:		Sandía, No porción, Arándano, Plátano
+
+
