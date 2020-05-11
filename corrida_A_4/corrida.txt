@@ -1,0 +1,76 @@
+gen	nevals	max 	avg     
+0  	5000  	-590	-1556.99
+1  	5000  	-434	-1440.1 
+2  	5000  	-350	-1390.9 
+3  	5000  	-330	-1368.26
+4  	5000  	-330	-1355.49
+5  	5000  	-330	-1342.07
+6  	5000  	-268	-1338.21
+7  	5000  	-300	-1332.72
+8  	5000  	-267	-1310.89
+9  	5000  	-257	-1315.34
+10 	5000  	-260	-1310.66
+11 	5000  	-223	-1289.49
+12 	5000  	-229	-1290.16
+13 	5000  	-232	-1283.81
+14 	5000  	-236	-1278.97
+15 	5000  	-226	-1272.69
+16 	5000  	-226	-1273.47
+17 	5000  	-230	-1269.54
+18 	5000  	-230	-1284.76
+19 	5000  	-205	-1264.6 
+20 	5000  	-215	-1282.4 
+21 	5000  	-212	-1286.55
+22 	5000  	-181	-1276.17
+23 	5000  	-228	-1279.03
+24 	5000  	-213	-1277.84
+25 	5000  	-214	-1258.09
+26 	5000  	-215	-1262.04
+27 	5000  	-205	-1257.1 
+28 	5000  	-214	-1264.06
+29 	5000  	-197	-1271.96
+30 	5000  	-214	-1275.88
+31 	5000  	-204	-1250.81
+32 	5000  	-204	-1254.04
+33 	5000  	-217	-1255.15
+34 	5000  	-196	-1253.66
+35 	5000  	-215	-1245.88
+36 	5000  	-191	-1247.28
+37 	5000  	-183	-1242.1 
+38 	5000  	-184	-1256.37
+39 	5000  	-195	-1239.42
+40 	5000  	-177	-1239.35
+41 	5000  	-165	-1246.56
+42 	5000  	-167	-1233.57
+43 	5000  	-191	-1246.08
+44 	5000  	-190	-1238.59
+45 	5000  	-195	-1244.31
+46 	5000  	-174	-1240.35
+47 	5000  	-169	-1241.01
+48 	5000  	-143	-1244.28
+49 	5000  	-137	-1243.06
+50 	5000  	-169	-1252.3 
+----------- Mejor individuo de la poblacion final -----------
+Cromosoma:	[70, 74, 14, 46, 79, 44, 81, 37, 1, 19, 2, 0, 29, 29, 40, 76, 33, 0, 58, 42, 9, 34, 0, 10]
+Fitness:	(-169.0,)
+Calorias:	2601
+Lacteos:	Fresa, Maíz, No porción
+Harinas:	Avena, Pan de trigo integral, Kiwi, Cordero, Canelones, Ciervo, Mostachol, Remolacha
+Verduras:	Pepino, Pepino, Espárrago, Pasta de sémola, Puerro
+Carnes blancas:	No porción, Salmón, Cebolla
+Carnes rojas:	Higo
+Frutas:		Manzana, Ciruela, Piña, No porción
+
+
+----------- Mejor individuo de toda la corrida -----------
+Cromosoma:	[58, 68, 38, 83, 1, 26, 69, 28, 13, 10, 3, 9, 26, 24, 0, 39, 0, 63, 36, 11, 65, 39, 67, 55]
+Fitness:	(-137.0,)
+Calorias:	2645
+Lacteos:	Leche de coco, Rúcula, Yogur natural
+Harinas:	Salmón, Arroz blanco, Col de Bruselas, Spaguetti, Manzana, Brócoli, Arroz integral, Lechuga
+Verduras:	Brócoli, Aguacate, No porción, Rúcula, No porción
+Carnes blancas:	Queso cheddar, Pimiento, Pomelo
+Carnes rojas:	Carne magra de cerdo
+Frutas:		Frambuesas, Higo, Pera, Fresa
+
+

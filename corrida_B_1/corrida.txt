@@ -1,0 +1,76 @@
+gen	nevals	max 	avg    
+0  	5000  	-420	-1574.6
+1  	5000  	-305	-1587.54
+2  	5000  	-378	-1595.9 
+3  	5000  	-262	-1599.71
+4  	5000  	-320	-1601.76
+5  	5000  	-271	-1609.61
+6  	5000  	-380	-1615.34
+7  	5000  	-348	-1618.06
+8  	5000  	-350	-1617.81
+9  	5000  	-306	-1616.75
+10 	5000  	-339	-1618.41
+11 	5000  	-305	-1616.69
+12 	5000  	-290	-1612.91
+13 	5000  	-261	-1616.05
+14 	5000  	-311	-1611.35
+15 	5000  	-278	-1613.45
+16 	5000  	-297	-1609.33
+17 	5000  	-242	-1610.39
+18 	5000  	-275	-1607.57
+19 	5000  	-288	-1612.37
+20 	5000  	-238	-1607.39
+21 	5000  	-292	-1604.52
+22 	5000  	-372	-1614.68
+23 	5000  	-289	-1614.43
+24 	5000  	-297	-1616.35
+25 	5000  	-305	-1610.93
+26 	5000  	-300	-1608.02
+27 	5000  	-272	-1611.5 
+28 	5000  	-337	-1607.28
+29 	5000  	-257	-1611.2 
+30 	5000  	-321	-1617.21
+31 	5000  	-336	-1613.56
+32 	5000  	-273	-1619.32
+33 	5000  	-334	-1623.17
+34 	5000  	-289	-1623.61
+35 	5000  	-350	-1619.41
+36 	5000  	-290	-1619.32
+37 	5000  	-268	-1620.33
+38 	5000  	-397	-1614.73
+39 	5000  	-290	-1616.68
+40 	5000  	-290	-1618.1 
+41 	5000  	-285	-1614.57
+42 	5000  	-275	-1611.35
+43 	5000  	-286	-1618.97
+44 	5000  	-277	-1628.19
+45 	5000  	-286	-1633.27
+46 	5000  	-277	-1633.66
+47 	5000  	-300	-1631.05
+48 	5000  	-285	-1627.67
+49 	5000  	-305	-1626.03
+50 	5000  	-285	-1628.28
+----------- Mejor individuo de la poblacion final -----------
+Cromosoma:	[53, 7, 28, 40, 5, 4, 68, 70, 21, 20, 11, 10, 15, 2, 15, 11, 27, 51, 30, 62, 18, 64, 59, 40]
+Fitness:	(-285.0,)
+Calorias:	2545
+Lacteos:	Maracuyá, Queso emmental, Atún
+Harinas:	Filete de cerdo, Moras, Lechuga, Espárrago, Arándano, Plátano, Arroz blanco, Avena
+Verduras:	Cerezas, Piña, Cerezas, Pomelo, Champiñones
+Carnes blancas:	Carne picada de vacuno, Zanahoria, Arvejas (Guisantes)
+Carnes rojas:	Espárrago
+Frutas:		Uvas, Sandía, Pomelo, Higo
+
+
+----------- Mejor individuo de toda la corrida -----------
+Cromosoma:	[61, 60, 32, 1, 19, 1, 78, 3, 10, 1, 6, 71, 32, 13, 34, 26, 68, 12, 56, 36, 24, 36, 64, 30]
+Fitness:	(-238.0,)
+Calorias:	2654
+Lacteos:	Aguacate, Pimiento, Queso emmental
+Harinas:	Poroto (Judias), Huevo, Calabaza, Manzana, Ciruela, Manzana, Cereales con chocolate, Pera
+Verduras:	Calabaza, Frambuesas, Maíz, Brócoli, Arroz blanco
+Carnes blancas:	Melón, Pechuga de pollo, Pimiento
+Carnes rojas:	Zanahoria
+Frutas:		Higo, Manzana, Naranja, Copos de maíz
+
+

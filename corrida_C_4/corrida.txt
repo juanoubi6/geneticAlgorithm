@@ -1,0 +1,76 @@
+gen	nevals	max 	avg     
+0  	5000  	-535	-1569.02
+1  	5000  	-442	-1034.08
+2  	5000  	-368	-805.161
+3  	5000  	-346	-657.798
+4  	5000  	-292	-590.04 
+5  	5000  	-290	-526.71 
+6  	5000  	-284	-468.441
+7  	5000  	-278	-442.469
+8  	5000  	-251	-403.515
+9  	5000  	-200	-385.083
+10 	5000  	-200	-375.073
+11 	5000  	-200	-369.411
+12 	5000  	-200	-339.209
+13 	5000  	-198	-318.241
+14 	5000  	-189	-308.284
+15 	5000  	-156	-302.932
+16 	5000  	-156	-304.714
+17 	5000  	-156	-299.64 
+18 	5000  	-156	-295.933
+19 	5000  	-156	-277.066
+20 	5000  	-156	-263.737
+21 	5000  	-156	-268.827
+22 	5000  	-156	-266.112
+23 	5000  	-156	-265.934
+24 	5000  	-136	-268.012
+25 	5000  	-136	-262.99 
+26 	5000  	-136	-269.526
+27 	5000  	-136	-256.701
+28 	5000  	-136	-249.176
+29 	5000  	-136	-255.616
+30 	5000  	-136	-257.253
+31 	5000  	-136	-252.27 
+32 	5000  	-136	-250.741
+33 	5000  	-136	-247.044
+34 	5000  	-136	-256.625
+35 	5000  	-136	-248.596
+36 	5000  	-136	-245.789
+37 	5000  	-136	-254.341
+38 	5000  	-136	-247.671
+39 	5000  	-136	-250.579
+40 	5000  	-136	-252.027
+41 	5000  	-136	-249.304
+42 	5000  	-136	-251.846
+43 	5000  	-136	-249.983
+44 	5000  	-136	-251.976
+45 	5000  	-136	-250.681
+46 	5000  	-117	-245.171
+47 	5000  	-117	-245.18 
+48 	5000  	-117	-246.017
+49 	5000  	-117	-245.499
+50 	5000  	-117	-239.782
+----------- Mejor individuo de la poblacion final -----------
+Cromosoma:	[74, 78, 79, 0, 0, 0, 73, 51, 4, 1, 4, 21, 22, 33, 72, 26, 4, 62, 80, 57, 24, 65, 6, 30]
+Fitness:	(-117.0,)
+Calorias:	2652
+Lacteos:	Aguacate, Leche de coco, Naranja
+Harinas:	Pan de trigo integral, Cereales con chocolate, Canelones, No porción, No porción, No porción, Pan de trigo blanco, Carne picada de vacuno
+Verduras:	Berenjena, Puerro, Pan de centeno, Brócoli, Plátano
+Carnes blancas:	Arvejas (Guisantes), Fideos de soja, Trucha
+Carnes rojas:	Zanahoria
+Frutas:		Plátano, Manzana, Plátano, Uvas
+
+
+----------- Mejor individuo de toda la corrida -----------
+Cromosoma:	[74, 78, 79, 0, 0, 0, 73, 51, 4, 1, 4, 21, 22, 33, 72, 26, 4, 62, 80, 57, 24, 65, 6, 30]
+Fitness:	(-117.0,)
+Calorias:	2652
+Lacteos:	Aguacate, Leche de coco, Naranja
+Harinas:	Pan de trigo integral, Cereales con chocolate, Canelones, No porción, No porción, No porción, Pan de trigo blanco, Carne picada de vacuno
+Verduras:	Berenjena, Puerro, Pan de centeno, Brócoli, Plátano
+Carnes blancas:	Arvejas (Guisantes), Fideos de soja, Trucha
+Carnes rojas:	Zanahoria
+Frutas:		Plátano, Manzana, Plátano, Uvas
+
+

@@ -1,0 +1,76 @@
+gen	nevals	max 	avg     
+0  	5000  	-450	-1566.68
+1  	5000  	-371	-1139.34
+2  	5000  	-254	-920.534
+3  	5000  	-211	-757.2  
+4  	5000  	-184	-634.233
+5  	5000  	-183	-541.229
+6  	5000  	-172	-476.303
+7  	5000  	-174	-450.101
+8  	5000  	-150	-423.141
+9  	5000  	-134	-391.246
+10 	5000  	-106	-368.215
+11 	5000  	-87 	-343.308
+12 	5000  	-76 	-324.682
+13 	5000  	-76 	-304.36 
+14 	5000  	-61 	-268.687
+15 	5000  	-49 	-245.145
+16 	5000  	-34 	-229.752
+17 	5000  	-32 	-217.335
+18 	5000  	-30 	-210.509
+19 	5000  	-30 	-192.628
+20 	5000  	-30 	-184.948
+21 	5000  	-30 	-174.767
+22 	5000  	-30 	-169.19 
+23 	5000  	-30 	-161.308
+24 	5000  	-30 	-157.013
+25 	5000  	-30 	-159.151
+26 	5000  	-30 	-151.754
+27 	5000  	-30 	-158.354
+28 	5000  	-30 	-158.207
+29 	5000  	-30 	-152.907
+30 	5000  	-30 	-148.731
+31 	5000  	-30 	-144.183
+32 	5000  	-30 	-146.397
+33 	5000  	-30 	-151.657
+34 	5000  	-30 	-153.796
+35 	5000  	-30 	-148.745
+36 	5000  	-30 	-155.234
+37 	5000  	-30 	-155.542
+38 	5000  	-30 	-150.229
+39 	5000  	-30 	-151.97 
+40 	5000  	-30 	-161.95 
+41 	5000  	-30 	-151.409
+42 	5000  	-30 	-151.577
+43 	5000  	-30 	-154.138
+44 	5000  	-30 	-156.155
+45 	5000  	-30 	-149.033
+46 	5000  	-30 	-152.051
+47 	5000  	-30 	-151.445
+48 	5000  	-30 	-154.112
+49 	5000  	-30 	-149.54 
+50 	5000  	-30 	-155.24 
+----------- Mejor individuo de la poblacion final -----------
+Cromosoma:	[79, 73, 31, 0, 72, 82, 80, 0, 7, 17, 2, 11, 30, 42, 36, 23, 25, 58, 60, 59, 0, 41, 64, 50]
+Fitness:	(-30.0,)
+Calorias:	2649
+Lacteos:	No porción, Espinaca, Queso emmental
+Harinas:	Canelones, Pan de trigo blanco, Papa, No porción, Pan de centeno, Tallarines, Fideos de soja, No porción
+Verduras:	Zanahoria, Cebolla, Pimiento, Alcachofa, Coliflor
+Carnes blancas:	Salmón, Huevo, Atún
+Carnes rojas:	Filete de vacuno
+Frutas:		Moras, Mango, Piña, Pomelo
+
+
+----------- Mejor individuo de toda la corrida -----------
+Cromosoma:	[79, 73, 31, 0, 72, 82, 80, 0, 18, 7, 2, 11, 31, 38, 30, 24, 23, 61, 57, 59, 0, 41, 64, 45]
+Fitness:	(-30.0,)
+Calorias:	2649
+Lacteos:	No porción, Espinaca, Queso emmental
+Harinas:	Canelones, Pan de trigo blanco, Papa, No porción, Pan de centeno, Tallarines, Fideos de soja, No porción
+Verduras:	Papa, Col de Bruselas, Zanahoria, Aguacate, Alcachofa
+Carnes blancas:	Poroto (Judias), Trucha, Atún
+Carnes rojas:	Ternera
+Frutas:		Maracuyá, Moras, Piña, Pomelo
+
+
