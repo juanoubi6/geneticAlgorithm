@@ -1,14 +1,9 @@
-import sys
-import codecs
-import locale
 import utils
-import comidas
 from comidas import (
     diccionario_comida_gen
 )
 from matplotlib import pyplot as plt
 
-sys.stdout = codecs.getwriter(locale.getpreferredencoding())(sys.stdout)
 
 def crear_logs(mejores_n_individuos_de_entre_todas_las_generaciones, poblacion_final, logbook):
     top_individuos_corrida = utils.lista_cromosomas_a_lista_individuos(mejores_n_individuos_de_entre_todas_las_generaciones.items)
